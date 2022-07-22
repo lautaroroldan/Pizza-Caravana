@@ -644,7 +644,7 @@ body {
     }
     .aboutUsText p {
         font-size: 1em;
-        width: 55%;
+        width: 70%;
     }
     .aboutUsText input[type="button"] {
         padding: 8px;
@@ -663,6 +663,13 @@ body {
         max-width: 430px;
         max-height: 400px;
     }
+    .findBox {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .findBox > h4 {
         font-size: 2.4em;
     }
@@ -676,8 +683,9 @@ body {
     .boxContainer {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        grid-gap: 10px;
-        margin-top: 70px;
+        grid-gap: 0;
+        margin-top: 0;
+        width: 85%;
     }
     .boxMap {
         padding: 0;
@@ -692,6 +700,7 @@ body {
     .box {
         width: 100%;
         margin-bottom: 0;
+        padding: 0;
         font-size: 1em;
     }
     .boxTxt {
@@ -699,7 +708,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* align-items: center; */
+        align-items: center;
         width: 100%;
     }
     .menuBox {
